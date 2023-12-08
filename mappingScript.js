@@ -29,8 +29,10 @@ exports.step = function (input, fileInput) {
   writeFile("MappingsKeyedByMxUnit.json", MappingsKeyedByMxUnit);
   writeFile("MappingsKeyedByIsoUnit.json", mappingsKeyedByIsoUnit);
 
-  const MxUnitOfMeasureOptions = Object.keys(MappingsKeyedByMxUnit);
-  MxUnitOfMeasureOptions.push("Unsupported unit of measure");
+  const unsupportedString = "Unsupported unit of measure";
+  const MxUnitOfMeasureOptions = Object.keys(MappingsKeyedByMxUnit).concat([
+    unsupportedString,
+  ]);
   writeFile("MxUnitOfMeasureOptions.json", MxUnitOfMeasureOptions);
 
   const MxWeightOptions = [
@@ -42,7 +44,7 @@ exports.step = function (input, fileInput) {
     mappingsKeyedByIsoUnit["TNE"].mxUnit,
     mappingsKeyedByIsoUnit["STN"].mxUnit,
     mappingsKeyedByIsoUnit["MC"].mxUnit,
-    "Unsupported unit of measure",
+    unsupportedString,
   ];
 
   writeFile("MxWeightOptions.json", MxWeightOptions);
@@ -67,7 +69,7 @@ exports.step = function (input, fileInput) {
     mappingsKeyedByIsoUnit["_12"].mxUnit,
     mappingsKeyedByIsoUnit["YDQ"].mxUnit,
     mappingsKeyedByIsoUnit["4G"].mxUnit,
-    "Unsupported unit of measure",
+    unsupportedString,
   ];
 
   writeFile("MxVolumeOptions.json", MxVolumeOptions);
