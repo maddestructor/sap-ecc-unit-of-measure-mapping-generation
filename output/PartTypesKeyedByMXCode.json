@@ -1,0 +1,114 @@
+{
+  "Spare Parts": {
+    "ProductType": "ERSA",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3040"
+  },
+  "Finished Product": {
+    "ProductType": "FERT",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": false,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "7920"
+  },
+  "Semifinished Product": {
+    "ProductType": "HALB",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "7900"
+  },
+  "Trading Goods": {
+    "ProductType": "HAWA",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3100"
+  },
+  "Operating Supplies": {
+    "ProductType": "HIBE",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3030"
+  },
+  "Configurable Materials": {
+    "ProductType": "KMAT",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "7920"
+  },
+  "Returnable Packaging": {
+    "ProductType": "LEIH",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3050"
+  },
+  "Material General": {
+    "ProductType": "MAT",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3100"
+  },
+  "Non-Stock Material": {
+    "ProductType": "NLAG",
+    "SupportPlantStocks": false,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "YB00"
+  },
+  "Pipeline Materials": {
+    "ProductType": "PIPE",
+    "SupportPlantStocks": false,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3000"
+  },
+  "Raw Materials": {
+    "ProductType": "ROH",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3000"
+  },
+  "Service Product": {
+    "ProductType": "SERV",
+    "SupportPlantStocks": false,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3200"
+  },
+  "Vehicle Config.": {
+    "ProductType": "VEHI",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3100"
+  },
+  "Packaging": {
+    "ProductType": "VERP",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": true,
+    "DefaultValuationClass": "3050"
+  },
+  "Software Non-Valuated": {
+    "ProductType": "SWNV",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": false,
+    "DefaultValuationClass": ""
+  },
+  "Nonvaluated Material": {
+    "ProductType": "UNBW",
+    "SupportPlantStocks": true,
+    "SupportsPurchasing": true,
+    "SupportsValuation": false,
+    "DefaultValuationClass": ""
+  }
+}
