@@ -1,0 +1,29 @@
+ProductType,SupportsPlantStock,SupportsPurchasing,SupportsValuation,DefaultValuationClass,MXPartType
+ABF,true,true,false,,Waste
+DIEN,false,true,true,3200,Service
+EPA,true,true,true,3050,Equipment Package
+ERSA,true,true,true,3040,Spare Parts
+FERT,true,false,true,7920,Finished Product
+FGTR,true,true,true,3100,Beverages
+FHMI,true,true,true,7900,Production Resource/Tool
+FOOD,true,true,true,3100,Foods (excl. perishables)
+FRIP,true,true,true,3100,Perishables
+HALB,true,true,true,7900,Semifinished Product
+HAWA,true,true,true,3100,Trading Goods
+HIBE,true,true,true,3030,Operating Supplies
+INTR,true,false,true,0710,Intra materials
+KMAT,true,true,true,7920,Configurable Materials
+LEER,true,true,true,3050,Empties
+LEIH,true,true,true,3050,Returnable Packaging
+LGUT,true,true,true,3050,Empties (Retail)
+MODE,true,true,true,3100,Apparel (Seasonal)
+NOF1,true,true,true,3100,Nonfoods
+NLAG,false,true,true,YB00,Non-Stock Material
+PIPE,false,true,true,3000,Pipeline Materials
+ROH,true,true,true,3000,Raw Materials
+UNBW,true,true,false,,Nonvaluated Material
+VERP,true,true,true,3050,Packaging
+VKHM,true,true,true,3100,Additionals
+VOLL,true,true,true,3100,Full products
+WERB,true,true,true,3100,Product catalogs
+WERT,true,true,true,3100,Value-only materials

@@ -1,0 +1,428 @@
+{
+  "PartTypesKeyedBySapCode": {
+    "ABF": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": false,
+      "DefaultValuationClass": "",
+      "MXPartType": "Waste"
+    },
+    "DIEN": {
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3200",
+      "MXPartType": "Service"
+    },
+    "EPA": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050",
+      "MXPartType": "Equipment Package"
+    },
+    "ERSA": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3040",
+      "MXPartType": "Spare Parts"
+    },
+    "FERT": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": false,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7920",
+      "MXPartType": "Finished Product"
+    },
+    "FGTR": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Beverages"
+    },
+    "FHMI": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7900",
+      "MXPartType": "Production Resource/Tool"
+    },
+    "FOOD": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Foods (excl. perishables)"
+    },
+    "FRIP": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Perishables"
+    },
+    "HALB": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7900",
+      "MXPartType": "Semifinished Product"
+    },
+    "HAWA": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Trading Goods"
+    },
+    "HIBE": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3030",
+      "MXPartType": "Operating Supplies"
+    },
+    "INTR": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": false,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "0710",
+      "MXPartType": "Intra materials"
+    },
+    "KMAT": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7920",
+      "MXPartType": "Configurable Materials"
+    },
+    "LEER": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050",
+      "MXPartType": "Empties"
+    },
+    "LEIH": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050",
+      "MXPartType": "Returnable Packaging"
+    },
+    "LGUT": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050",
+      "MXPartType": "Empties (Retail)"
+    },
+    "MODE": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Apparel (Seasonal)"
+    },
+    "NOF1": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Nonfoods"
+    },
+    "NLAG": {
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "YB00",
+      "MXPartType": "Non-Stock Material"
+    },
+    "PIPE": {
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3000",
+      "MXPartType": "Pipeline Materials"
+    },
+    "ROH": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3000",
+      "MXPartType": "Raw Materials"
+    },
+    "UNBW": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": false,
+      "DefaultValuationClass": "",
+      "MXPartType": "Nonvaluated Material"
+    },
+    "VERP": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050",
+      "MXPartType": "Packaging"
+    },
+    "VKHM": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Additionals"
+    },
+    "VOLL": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Full products"
+    },
+    "WERB": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Product catalogs"
+    },
+    "WERT": {
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100",
+      "MXPartType": "Value-only materials"
+    }
+  },
+  "PartTypesKeyedByMXCode": {
+    "Waste": {
+      "ProductType": "ABF",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": false,
+      "DefaultValuationClass": ""
+    },
+    "Service": {
+      "ProductType": "DIEN",
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3200"
+    },
+    "Equipment Package": {
+      "ProductType": "EPA",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050"
+    },
+    "Spare Parts": {
+      "ProductType": "ERSA",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3040"
+    },
+    "Finished Product": {
+      "ProductType": "FERT",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": false,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7920"
+    },
+    "Beverages": {
+      "ProductType": "FGTR",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Production Resource/Tool": {
+      "ProductType": "FHMI",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7900"
+    },
+    "Foods (excl. perishables)": {
+      "ProductType": "FOOD",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Perishables": {
+      "ProductType": "FRIP",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Semifinished Product": {
+      "ProductType": "HALB",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7900"
+    },
+    "Trading Goods": {
+      "ProductType": "HAWA",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Operating Supplies": {
+      "ProductType": "HIBE",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3030"
+    },
+    "Intra materials": {
+      "ProductType": "INTR",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": false,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "0710"
+    },
+    "Configurable Materials": {
+      "ProductType": "KMAT",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "7920"
+    },
+    "Empties": {
+      "ProductType": "LEER",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050"
+    },
+    "Returnable Packaging": {
+      "ProductType": "LEIH",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050"
+    },
+    "Empties (Retail)": {
+      "ProductType": "LGUT",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050"
+    },
+    "Apparel (Seasonal)": {
+      "ProductType": "MODE",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Nonfoods": {
+      "ProductType": "NOF1",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Non-Stock Material": {
+      "ProductType": "NLAG",
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "YB00"
+    },
+    "Pipeline Materials": {
+      "ProductType": "PIPE",
+      "SupportsPlantStock": false,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3000"
+    },
+    "Raw Materials": {
+      "ProductType": "ROH",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3000"
+    },
+    "Nonvaluated Material": {
+      "ProductType": "UNBW",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": false,
+      "DefaultValuationClass": ""
+    },
+    "Packaging": {
+      "ProductType": "VERP",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3050"
+    },
+    "Additionals": {
+      "ProductType": "VKHM",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Full products": {
+      "ProductType": "VOLL",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Product catalogs": {
+      "ProductType": "WERB",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    },
+    "Value-only materials": {
+      "ProductType": "WERT",
+      "SupportsPlantStock": true,
+      "SupportsPurchasing": true,
+      "SupportsValuation": true,
+      "DefaultValuationClass": "3100"
+    }
+  },
+  "MxPartTypes": [
+    "Waste",
+    "Service",
+    "Equipment Package",
+    "Spare Parts",
+    "Finished Product",
+    "Beverages",
+    "Production Resource/Tool",
+    "Foods (excl. perishables)",
+    "Perishables",
+    "Semifinished Product",
+    "Trading Goods",
+    "Operating Supplies",
+    "Intra materials",
+    "Configurable Materials",
+    "Empties",
+    "Returnable Packaging",
+    "Empties (Retail)",
+    "Apparel (Seasonal)",
+    "Nonfoods",
+    "Non-Stock Material",
+    "Pipeline Materials",
+    "Raw Materials",
+    "Nonvaluated Material",
+    "Packaging",
+    "Additionals",
+    "Full products",
+    "Product catalogs",
+    "Value-only materials"
+  ]
+}

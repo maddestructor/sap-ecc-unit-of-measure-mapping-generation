@@ -1,6 +1,7 @@
 var input = require("./input/mappingsInput.json");
 // Ignore the `script` part of the input - use the `script.js` instead
-var step = require("./mappingScript").step;
+var mappingStep = require("./mappingScript").step;
+var partTypeStep = require("./mappingPartTypeScript").step;
 
 // Add in the global variables
 global._ = require("lodash");
@@ -13,4 +14,5 @@ input.variables.forEach(function (variable) {
   variables[variable.name] = variable.value;
 });
 
-console.log(step(variables));
+console.log(mappingStep(variables));
+console.log(partTypeStep(variables));
